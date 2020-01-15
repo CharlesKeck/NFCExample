@@ -14,6 +14,7 @@
 		562FEC3523CBFF35006DC79F /* NFCExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 562FEC3323CBFF35006DC79F /* NFCExample.xcdatamodeld */; };
 		562FEC3723CBFF36006DC79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562FEC3623CBFF36006DC79F /* Assets.xcassets */; };
 		562FEC3A23CBFF36006DC79F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562FEC3823CBFF36006DC79F /* LaunchScreen.storyboard */; };
+		56BDA17023CD78950027E19D /* NFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BDA16F23CD78950027E19D /* NFCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		562FEC3623CBFF36006DC79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562FEC3923CBFF36006DC79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562FEC3B23CBFF36006DC79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562FEC4223CC010A006DC79F /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		56BDA16F23CD78950027E19D /* NFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,7 @@
 			children = (
 				562FEC2923CBFF35006DC79F /* NFCExample */,
 				562FEC2823CBFF35006DC79F /* Products */,
+				562FEC4123CC010A006DC79F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +70,17 @@
 				562FEC3823CBFF36006DC79F /* LaunchScreen.storyboard */,
 				562FEC3B23CBFF36006DC79F /* Info.plist */,
 				562FEC3323CBFF35006DC79F /* NFCExample.xcdatamodeld */,
+				56BDA16F23CD78950027E19D /* NFCViewController.swift */,
 			);
 			path = NFCExample;
+			sourceTree = "<group>";
+		};
+		562FEC4123CC010A006DC79F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				562FEC4223CC010A006DC79F /* CoreNFC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 				562FEC2B23CBFF35006DC79F /* AppDelegate.swift in Sources */,
 				562FEC3523CBFF35006DC79F /* NFCExample.xcdatamodeld in Sources */,
 				562FEC2D23CBFF35006DC79F /* SceneDelegate.swift in Sources */,
+				56BDA17023CD78950027E19D /* NFCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NFCExample/NFCExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SQQ2QJ45B;
 				INFOPLIST_FILE = NFCExample/Info.plist;
@@ -306,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NFCExample/NFCExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SQQ2QJ45B;
 				INFOPLIST_FILE = NFCExample/Info.plist;
