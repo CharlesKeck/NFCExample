@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		562FEC2B23CBFF35006DC79F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562FEC2A23CBFF35006DC79F /* AppDelegate.swift */; };
 		562FEC2D23CBFF35006DC79F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562FEC2C23CBFF35006DC79F /* SceneDelegate.swift */; };
-		562FEC2F23CBFF35006DC79F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562FEC2E23CBFF35006DC79F /* ViewController.swift */; };
 		562FEC3223CBFF35006DC79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562FEC3023CBFF35006DC79F /* Main.storyboard */; };
 		562FEC3523CBFF35006DC79F /* NFCExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 562FEC3323CBFF35006DC79F /* NFCExample.xcdatamodeld */; };
 		562FEC3723CBFF36006DC79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562FEC3623CBFF36006DC79F /* Assets.xcassets */; };
@@ -21,13 +20,13 @@
 		562FEC2723CBFF35006DC79F /* NFCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		562FEC2A23CBFF35006DC79F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		562FEC2C23CBFF35006DC79F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		562FEC2E23CBFF35006DC79F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		562FEC3123CBFF35006DC79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		562FEC3423CBFF35006DC79F /* NFCExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFCExample.xcdatamodel; sourceTree = "<group>"; };
 		562FEC3623CBFF36006DC79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562FEC3923CBFF36006DC79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562FEC3B23CBFF36006DC79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		562FEC4223CC010A006DC79F /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		56AD067F23D6ADA20085C2FC /* NFCExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = NFCExample.entitlements; path = ../../../../Downloads/NFCExample.entitlements; sourceTree = "<group>"; };
 		56BDA16F23CD78950027E19D /* NFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,13 +63,13 @@
 			children = (
 				562FEC2A23CBFF35006DC79F /* AppDelegate.swift */,
 				562FEC2C23CBFF35006DC79F /* SceneDelegate.swift */,
-				562FEC2E23CBFF35006DC79F /* ViewController.swift */,
 				562FEC3023CBFF35006DC79F /* Main.storyboard */,
 				562FEC3623CBFF36006DC79F /* Assets.xcassets */,
 				562FEC3823CBFF36006DC79F /* LaunchScreen.storyboard */,
 				562FEC3B23CBFF36006DC79F /* Info.plist */,
 				562FEC3323CBFF35006DC79F /* NFCExample.xcdatamodeld */,
 				56BDA16F23CD78950027E19D /* NFCViewController.swift */,
+				56AD067F23D6ADA20085C2FC /* NFCExample.entitlements */,
 			);
 			path = NFCExample;
 			sourceTree = "<group>";
@@ -154,7 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				562FEC2F23CBFF35006DC79F /* ViewController.swift in Sources */,
 				562FEC2B23CBFF35006DC79F /* AppDelegate.swift in Sources */,
 				562FEC3523CBFF35006DC79F /* NFCExample.xcdatamodeld in Sources */,
 				562FEC2D23CBFF35006DC79F /* SceneDelegate.swift in Sources */,
